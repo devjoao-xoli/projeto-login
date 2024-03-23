@@ -47,3 +47,44 @@ section > div#formulario {
     display: block;
     padding: 10px;
 }
+div#formulario > h1{
+    text-align: center;
+    margin-top: 10px;
+}
+div#formulario > p {
+    font-size: 0.8em;
+}
+form > div.campo {
+    background-color: #6a0dad;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    display: block;
+    width: 100%;
+}
+div.campo > label {
+    display: none;
+}
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+form > input[type=submit]:hover {
+    background-color: #0053ac;
+}
+form > a.botao {
+    margin-top: 7px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+form > a.botao:hover {
+    text-decoration: underline;
+}
